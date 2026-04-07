@@ -1,0 +1,248 @@
+a {
+  text-decoration: none;
+  font-size: 125%;
+}
+
+p {
+    font-family: rockwell;
+    margin-right: 7%;
+    margin-left: 7%;
+}
+
+h1 {
+    font-family: rockwell;
+    margin-right: 7%;
+    margin-left: 7%;
+}
+
+h2 {
+    font-family: rockwell;
+    margin-right: 7%;
+    margin-left: 7%;
+}
+
+h4 {
+    font-family: rockwell;
+    margin-right: 7%;
+    margin-left: 7%;
+}
+
+button {
+    font-family: rockwell;
+}
+
+label {
+    font-family: rockwell;
+}
+
+td {
+    font-family: rockwell;
+}
+
+.logo {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+
+nav {
+    background-color: green;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 25px;
+}
+
+nav button {
+    flex-basis: 100px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    margin: 2px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: lime;
+    transition-duration: 1s;
+}
+
+.active {
+    border-width: 3px;
+    border-color: white;
+    background-color: lightgreen;
+}
+
+.homebottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.homebottom button {
+    flex-basis: 250px;
+    padding-top: 15px;
+    padding: 5px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.webpage {
+    display: flex;
+}
+
+aside {
+    flex: 30%;
+    position: relative;
+    align-content: center;
+}
+
+body {
+    flex: 70%;
+}
+
+
+
+.calendar {
+    display: flex;
+    justify-content: center;
+}
+
+#calendar {
+    background-color: green;
+    transform: scale(150%);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#calendar td{
+    background-color: white;
+    padding: 5px;
+}
+
+@media screen and (min-width: 960px) {
+  #calendar {
+    transform: scale(200%);
+    align-content: center;
+  }
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.event-desc {
+    background-color: lightgrey;
+    margin-top: 20px;
+    border-radius: 25px;
+}
+
+
+
+.formbox {
+    background-color: lightgray;
+    width: 870px;
+    height: 400px;
+    padding: 50px;
+    margin-left: 0%;
+    border-radius: 50px;
+}
+
+@media screen and (max-width: 960px) {
+  .formbox {
+    width: 870px;
+    padding: 5px;
+    margin-left: 0%;
+  }
+}
+
+#contactPic {
+    position: relative;
+    bottom: 300px;
+    left: 450px;
+    border-radius: 25%;
+}
+
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formbox button {
+    margin-left: 5px;
+}
+
+input, textarea {
+    width: 45%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.operation-hours table {
+    background-color: white;
+    border-radius: 20px;
+    padding-bottom: 5px;
+    border-style: solid;
+    border-color: white;
+}
+
+.alternating {
+    background-color: lightgray;
+}
+
+
+
+.book-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formspace {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgray;
+    width: 870px;
+    padding: 50px;
+    margin-left: 0%;
+    border-radius: 50px;
+}
+
+#date-sel {
+    width: 300px;
+}
+
+#book-button {
+    width: 100px;
+    font-family: rockwell;
+}
+
+#ref-bar {
+    width: 300px;
+}
+
+
+
+
+.activity-page {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.activity-row {
+    background-color: lightgray;
+    height: 400px;
+    padding: 25px;
+    border-radius: 25px;
+    margin: 5px;
+}
+
+#activity-img {
+    border-radius: 20px;
+}

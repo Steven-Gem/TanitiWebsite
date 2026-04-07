@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Welcome to Taniti!</title>
+        <link href="stylesheet.css" rel="stylesheet">
+    </head>
+    <header class="top-nav">
+        <nav class="nav-bar">
+            <button class="active" style="margin-right: 5%;"><a href=book.html>Book Now</a></button>
+            <button><a href=contact.html>Contact Us</a></button>
+            <button><a href=events.html>Events</a></button>
+            <button><a href=activities.html>Activities</a></button>
+            <button><a href=home.html>Home</a></button>
+            <a class="logo" href=home.html><img src="Images/websiteLogo.png"></a>
+        </nav>
+    </header>
+
+    <div class="book-page">
+        <form action="bookdates.php" class="formspace">
+            <h2>Book your next stay!</h2>
+            <i>Please select the dates of your stay</i>
+            <h4>Start date:<input type="date" id="date-sel"></h4>
+            <h4>End date:<input type="date" id="date-sel"></h4>
+            <input id="book-button" type="submit" value="Book Stay">
+        </form>
+        <br>
+
+        <h2>Already have a booking?</h2>
+        <p>Enter booking ID below</p>
+        <input id="ref-bar" type="text" id="bookid" name="bookid" placeholder="Enter booking number">
+        <br>
+
+        <button onclick="myFunction()">Submit</button>
+
+        <script>
+        function myFunction() {
+        alert("Booking ID not found");
+        }
+        </script>
+    </div>

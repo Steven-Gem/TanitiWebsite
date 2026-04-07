@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact Us</title>
+        <link href="stylesheet.css" rel="stylesheet">
+    </head>
+    <header class="top-nav">
+        <nav class="nav-bar">
+            <button style="margin-right: 5%;"><a href=book.html>Book Now</a></button>
+            <button class="active"><a href=contact.html>Contact Us</a></button>
+            <button><a href=events.html>Events</a></button>
+            <button><a href=activities.html>Activities</a></button>
+            <button><a href=home.html>Home</a></button>
+            <a class="logo" href=home.html><img src="Images/websiteLogo.png"></a>
+        </nav>
+    </header>
+    
+    <div class="contact-page">
+        <div class="formbox">
+                <h4>Submit request to be contacted here.</h4>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Your name">
+                <br>
+                <br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter your Email address">
+                <br>
+                <br>
+                <label for="number">Phone Number:</label><br>
+                <input type="text" id="phonenum" name="phonenum" placeholder="Enter your phone number">
+                <br>
+                <br>
+                <label for="reason">Reason for contact:</label><br>
+                <textarea id="reason" name="reason" placeholder="Write something" style="height:50px"></textarea>
+                <br>
+                <button onclick="myFunction()">Submit</button>
+
+                <p style="color: blue;" id="ok"></p>
+                <p style="color: red;" id="no"></p>
+                <img src="Images/contactPic.png" height="300px" id="contactPic">
+
+                <script>
+                function myFunction() {
+                var txt;
+                if (confirm("Submit information provided?")) {
+                    txt = "Your request is being reviewed!";
+                } else {
+                    txt = "Your request was NOT submitted!";
+                }
+                document.getElementById("no").innerHTML = txt;
+                }
+                </script>
+
+        </div>
+        <br>
+
+        <div class="contacts">
+            <table>
+                <tr>
+                    <td><b>Feel free to also reach out at:</b></td>
+                    <td style="color: blue;">info@tanitiisland.gov</td>
+                </tr>
+                <tr>
+                    <td><b>or call us toll free at:</b></td>
+                    <td style="color: blue;">(555) 555-1234</td>
+                </tr>
+            </table>
+        </div>
+        <br>
+
+        <div class="operation-hours">
+            <table>
+                <th colspan="4">Hours of Operation</th>
+                    <tr class="alternating">
+                        <td>Monday</td>
+                        <td>7:00am</td>
+                        <td>-</td>
+                        <td>9:00pm</td>
+                    </tr>
+                    <tr>
+                        <td>Tuesday</td>
+                        <td>7:00am</td>
+                        <td>-</td>
+                        <td>9:00pm</td>
+                    </tr>
+                    <tr class="alternating">
+                        <td>Wednesday</td>
+                        <td>7:00am</td>
+                        <td>-</td>
+                        <td>9:00pm</td>
+                    </tr>
+                    <tr>
+                        <td>Thursday</td>
+                        <td>7:00am</td>
+                        <td>-</td>
+                        <td>9:00pm</td>
+                    </tr>
+                    <tr class="alternating">
+                        <td>Friday</td>
+                        <td>7:00am</td>
+                        <td>-</td>
+                        <td>7:00pm</td>
+                    </tr>
+                    <tr>
+                        <td>Saturday</td>
+                        <td>9:00am</td>
+                        <td>-</td>
+                        <td>5:00pm</td>
+                    </tr>
+                    <tr class="alternating">
+                        <td>Sunday</td>
+                        <td>9:00am</td>
+                        <td>-</td>
+                        <td>5:00pm</td>
+                    </tr>
+                    <tr><td colspan="4"><br></td></tr>
+                    <td style="font-size: smaller;" colspan="1"><i>All times listed in Central Standard Time</i></td>
+            </table>
+        </div>
+    </div>
