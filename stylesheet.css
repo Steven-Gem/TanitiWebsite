@@ -9,6 +9,16 @@ p {
     margin-left: 7%;
 }
 
+li {
+    font-family: rockwell;
+    margin-right: 7%;
+    margin-left: 7%;
+}
+
+.card {
+    font-family: rockwell;
+}
+
 h1 {
     font-family: rockwell;
     margin-right: 7%;
@@ -230,14 +240,15 @@ input, textarea {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-evenly;
+    align-content: flex-start;
+    justify-content: center;
     margin-top: 20px;
 }
 
 .activity-row {
     background-color: lightgray;
-    height: 400px;
+    height: 600px;
+    width: 300px;
     padding: 25px;
     border-radius: 25px;
     margin: 5px;
