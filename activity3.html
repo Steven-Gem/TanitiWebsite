@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Sunset Beach Bonfire</title>
+        <link href="stylesheet.css" rel="stylesheet">
+    </head>
+    <header class="top-nav">
+        <nav class="nav-bar">
+            <button style="margin-right: 5%;"><a href=book.html>Book Now</a></button>
+            <button><a href=contact.html>Contact Us</a></button>
+            <button><a href=events.html>Events</a></button>
+            <button class="active"><a href=activities.html>Activities</a></button>
+            <button><a href=index.html>Home</a></button>
+            <a class="logo" href=index.html><img src="Images/websiteLogo.png"></a>
+        </nav>
+    </header>
+    <style>
+        .hero {
+            background-image: url("Images/activity3.png");
+            background-size: cover;
+            background-position: center;
+            height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            background-color: rgba(0,0,0,0.4);
+            background-blend-mode: darken;
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        .section {
+            padding: 40px 10%;
+        }
+
+        .section h2 {
+            margin-bottom: 15px;
+        }
+
+        .details {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: #f5f5f5;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        ul {
+            line-height: 1.8;
+        }
+    </style>
+    <body>
+        <!-- HERO -->
+        <div class="hero">
+            <div>
+                <h1>Sunset Beach Bonfire</h1>
+                <p>Relax by the fire as the sun sets over the ocean</p>
+            </div>
+        </div>
+
+        <!-- OVERVIEW -->
+        <div class="section">
+            <h2>Overview</h2>
+            <p>
+                Unwind on the shore with a cozy beach bonfire experience as the sun dips below the horizon.
+                Enjoy the calming sound of the waves, warm firelight, and a laid-back island atmosphere
+                perfect for relaxing and connecting with others.
+            </p>
+        </div>
+
+        <!-- WHAT'S INCLUDED -->
+        <div class="section">
+            <h2>What’s Included</h2>
+            <ul>
+                <li>Private or group bonfire setup</li>
+                <li>Seating arrangements around the fire</li>
+                <li>Firewood and maintenance</li>
+                <li>Light snacks and refreshments</li>
+                <li>Ambient lighting for evening comfort</li>
+            </ul>
+        </div>
+
+        <!-- DETAILS -->
+        <div class="section">
+            <h2>Details at a Glance</h2>
+            <div class="details">
+                <div class="card"><strong>Duration:</strong><br>2–3 Hours</div>
+                <div class="card"><strong>Skill Level:</strong><br>All Guests Welcome</div>
+                <div class="card"><strong>Group Size:</strong><br>Flexible Options</div>
+                <div class="card"><strong>Ages:</strong><br>Family Friendly</div>
+            </div>
+        </div>
+
+        <!-- HIGHLIGHTS -->
+        <div class="section">
+            <h2>Highlights</h2>
+            <ul>
+                <li>Beautiful sunset views over the ocean</li>
+                <li>Warm, relaxing beachfront atmosphere</li>
+                <li>Perfect for couples, families, and groups</li>
+                <li>Memorable nighttime island experience</li>
+            </ul>
+        </div>
+
+        <!-- SAFETY -->
+        <div class="section">
+            <h2>Safety & Requirements</h2>
+            <ul>
+                <li>Bonfires are managed by staff for safety</li>
+                <li>Children should be supervised at all times</li>
+                <li>Weather conditions may affect scheduling</li>
+            </ul>
+        </div>
+    
+    <!-- CTA -->
+        <div class="homebottom">
+            <button onclick="location.href='activities.html'">Back to Activities</button>
+            <button onclick="location.href='book.html'">Book Now</button>
+        </div>
+    </body>
+</html>

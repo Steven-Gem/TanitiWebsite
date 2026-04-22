@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Snorkeling & Marine Discovery</title>
+        <link href="stylesheet.css" rel="stylesheet">
+    </head>
+    <header class="top-nav">
+        <nav class="nav-bar">
+            <button style="margin-right: 5%;"><a href="book.html">Book Now</a></button>
+            <button><a href="contact.html">Contact Us</a></button>
+            <button><a href="events.html">Events</a></button>
+            <button class="active"><a href="activities.html">Activities</a></button>
+            <button><a href="index.html">Home</a></button>
+            <a class="logo" href="index.html"><img src="Images/websiteLogo.png"></a>
+        </nav>
+    </header>
+        <style>
+            .hero {
+                background-image: url("Images/activity2.png");
+                background-size: cover;
+                background-position: center;
+                height: 60vh;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                text-align: center;
+                background-color: rgba(0,0,0,0.4);
+                background-blend-mode: darken;
+            }
+
+            .hero h1 {
+                font-size: 3em;
+                margin-bottom: 10px;
+            }
+
+            .section {
+                padding: 40px 10%;
+            }
+
+            .section h2 {
+                margin-bottom: 15px;
+            }
+
+            .details {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                gap: 20px;
+            }
+
+            .card {
+                background: #f5f5f5;
+                padding: 20px;
+                border-radius: 10px;
+            }
+
+            ul {
+                line-height: 1.8;
+            }
+        </style>
+    <body>
+        <!-- HERO -->
+        <div class="hero">
+            <div>
+                <h1>Snorkeling & Marine Discovery</h1>
+                <p>Explore a vibrant world beneath the surface</p>
+            </div>
+        </div>
+
+        <!-- OVERVIEW -->
+        <div class="section">
+            <h2>Overview</h2>
+            <p>
+                Immerse yourself in crystal-clear waters and discover a thriving underwater ecosystem.
+                This guided snorkeling experience is perfect for all skill levels, offering a safe and
+                unforgettable opportunity to explore colorful coral reefs and encounter tropical marine life up close.
+            </p>
+        </div>
+
+        <!-- WHAT'S INCLUDED -->
+        <div class="section">
+            <h2>What’s Included</h2>
+            <ul>
+                <li>Snorkel, mask, and fins</li>
+                <li>Life jackets and flotation devices</li>
+                <li>Guided tour with experienced instructor</li>
+                <li>Safety briefing and assistance</li>
+                <li>Optional refreshments</li>
+            </ul>
+        </div>
+
+        <!-- DETAILS -->
+        <div class="section">
+            <h2>Details at a Glance</h2>
+            <div class="details">
+                <div class="card"><strong>Duration:</strong><br>1–2 Hours</div>
+                <div class="card"><strong>Skill Level:</strong><br>Beginner Friendly</div>
+                <div class="card"><strong>Group Size:</strong><br>Small Groups</div>
+                <div class="card"><strong>Ages:</strong><br>All Ages Welcome</div>
+            </div>
+        </div>
+
+        <!-- HIGHLIGHTS -->
+        <div class="section">
+            <h2>Highlights</h2>
+            <ul>
+                <li>Swim alongside vibrant tropical fish</li>
+                <li>Explore colorful coral reef formations</li>
+                <li>Crystal-clear, warm waters</li>
+                <li>Safe, guided experience for beginners and families</li>
+            </ul>
+        </div>
+
+        <!-- SAFETY -->
+        <div class="section">
+            <h2>Safety & Requirements</h2>
+            <ul>
+                <li>Basic swimming ability recommended</li>
+                <li>Life jackets provided and required when needed</li>
+                <li>Guides present at all times for assistance</li>
+                <li>Weather conditions may affect scheduling</li>
+            </ul>
+        </div>
+
+        <!-- CTA -->
+        <div class="homebottom">
+            <button onclick="location.href='activities.html'">Back to Activities</button>
+            <button onclick="location.href='book.html'">Book Now</button>
+        </div>
+    </body>
+</html>
