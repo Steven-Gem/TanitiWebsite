@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ocean Kayaking Experience</title>
+        <link href="stylesheet.css" rel="stylesheet">
+    </head>
+    <header class="top-nav">
+        <nav class="nav-bar">
+            <button style="margin-right: 5%;"><a href=book.html>Book Now</a></button>
+            <button><a href=contact.html>Contact Us</a></button>
+            <button><a href=events.html>Events</a></button>
+            <button class="active"><a href=activities.html>Activities</a></button>
+            <button><a href=index.html>Home</a></button>
+            <a class="logo" href=index.html><img src="Images/websiteLogo.png"></a>
+        </nav>
+    </header>
+    <style>
+        .hero {
+            background-image: url("Images/activity1.png");
+            background-size: cover;
+            background-position: center;
+            height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            background-color: rgba(0,0,0,0.4);
+            background-blend-mode: darken;
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        .section {
+            padding: 40px 10%;
+        }
+
+        .section h2 {
+            margin-bottom: 15px;
+        }
+
+        .details {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: #f5f5f5;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        ul {
+            line-height: 1.8;
+        }
+    </style>
+    <body>
+        <!-- HERO -->
+        <div class="hero">
+            <div>
+                <h1>Ocean Kayaking Experience</h1>
+                <p>Paddle through paradise at your own pace</p>
+            </div>
+        </div>
+
+        <!-- OVERVIEW -->
+        <div class="section">
+            <h2>Overview</h2>
+            <p>
+                Glide across calm, sunlit waters on a guided kayaking adventure designed for all skill levels.
+                Whether you're seeking peaceful exploration or light activity, this experience offers a refreshing
+                way to connect with the ocean while enjoying breathtaking coastal views.
+            </p>
+        </div>
+
+        <!-- WHAT'S INCLUDED -->
+        <div class="section">
+            <h2>What’s Included</h2>
+            <ul>
+                <li>Single or tandem kayak</li>
+                <li>Paddle and safety equipment</li>
+                <li>Life jackets for all participants</li>
+                <li>Guided tour with experienced instructor</li>
+                <li>Optional refreshments</li>
+            </ul>
+        </div>
+
+        <!-- DETAILS -->
+        <div class="section">
+            <h2>Details at a Glance</h2>
+            <div class="details">
+                <div class="card"><strong>Duration:</strong><br>1–2 Hours</div>
+                <div class="card"><strong>Skill Level:</strong><br>Beginner Friendly</div>
+                <div class="card"><strong>Group Size:</strong><br>Small Groups</div>
+                <div class="card"><strong>Ages:</strong><br>All Ages Welcome</div>
+            </div>
+        </div>
+
+        <!-- HIGHLIGHTS -->
+        <div class="section">
+            <h2>Highlights</h2>
+            <ul>
+                <li>Scenic coastal views</li>
+                <li>Relaxing and beginner-friendly pace</li>
+                <li>Perfect for couples, families, and solo travelers</li>
+                <li>Safe and guided experience</li>
+            </ul>
+        </div>
+
+        <!-- SAFETY -->
+        <div class="section">
+            <h2>Safety & Requirements</h2>
+            <ul>
+                <li>Life jackets are provided and required</li>
+                <li>Basic swimming ability recommended</li>
+                <li>Weather conditions may affect scheduling</li>
+            </ul>
+        </div>
+    
+    <!-- CTA -->
+        <div class="homebottom">
+            <button onclick="location.href='activities.html'">Back to Activities</button>
+            <button onclick="location.href='book.html'">Book Now</button>
+        </div>
+    </body>
+</html>
