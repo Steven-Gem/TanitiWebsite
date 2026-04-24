@@ -51,8 +51,12 @@ td {
 
 .logo {
     position: absolute;
-    left: 50px;
-    top: 50px;
+    left: 15px;
+    top: -5px;
+}
+
+#logo {
+    width: 125px;
 }
 
 nav {
